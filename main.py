@@ -150,3 +150,75 @@ if __name__ == '__main__':
     # Q3.3 Suppresssion du set
     del sports
     # FIN Q3.3
+
+    # Q4 Création d'un dictionnaire de 10 éléments
+    etudiants = {
+        "Nom" : "Munezero",
+        "Prenom": "Audry",
+        "Age": 25,
+        "Email": "audry.munezero.am@gmail.com",
+        "Adresse": "kinanira 3,Bujumbuura,Burundi",
+        "Etat civil": "Celibataire",
+        "Tel": "+1 5232 55555 2225",
+        "Universite": "ULT",
+        "Fculte": "Informatique",
+        "Departement": "Genie Logiciel"
+    }
+    # FIN Q4
+
+    #Q4.1 Afficher le dictionnaire cree
+    print("\nQ4.1 Afficher le dictionnaire cree")
+    print("--------------------------------------\n")
+    print(etudiants)
+    # Fin de l'affichage du dict   
+     
+    #Q4.2 Afficher seulement les cles
+    print("\nQ4.2 Afficher seulement les cles")
+    print("--------------------------------------\n")
+    for k in etudiants.keys():
+        print(k)
+
+    # Fin
+
+
+    #Q4.3 Afficher seulement les valeurs
+    print("\nQ4.3 Afficher seulement les valeurs")
+    print("--------------------------------------\n")
+    for k in etudiants.keys():
+        print(k)
+
+    # Fin 
+       
+    #Q4.4 Afficher les cles et les valeurs sous le format cl:val
+    print("\nQ4.4 Afficher les cles et les valeurs sous le format cl:val")
+    print("---------------------------------------------------------------\n")
+    for k, v in etudiants.items():
+        print(f"{k} : {v}")
+
+    # Fin 
+    
+        
+    #Q4.5 Supprimer un élément de la cle numero 2
+    del etudiants["Age"]
+    # Fin
+
+    #Q4.5 Supprimer un élément de la cle numero 5
+    del etudiants["Etat civil"]
+    # Fin
+        
+    #Q4.6 Afficher l'element de la cle numero 5
+    print("\nQ4.6 Afficher l'element de la cle numero 5")
+    print("---------------------------------------------------------------\n")
+    print(etudiants["Universite"])
+
+    # Fin 
+       
+    #Q4.7 Ajouter un nouvel element dans le dictiannaire
+    etudiants.update({
+        "Ecole secondaire": "Lycée du Lc Tanganyika"
+    })
+    # Fin  
+      
+    #Q4.7 Copy du dictionnaire dictiannaire
+    etudiants_Copy= etudiants.copy()
+    # Fin    
