@@ -15,3 +15,13 @@ if __name__ == '__main__':
     # Q1.2 Changer le contenu de l'élément numéro 5
     voitures[5]= "Citroen"
     # Q1.2 Fin du Changement de l'élément 5
+
+    # Q1.3 Création d'une nouvelles liste en remplissant la précente
+    Nouvelles_voitures = [v for v in voitures if 'a' in v]
+    Nouvelles_voitures.extend(["Hilux","Porte","vitz","Sienta"])
+
+    print("\nQ1.3 Affichage de la nouvelles liste cree en remplissant la precente qui a 'a' dans ses elements")
+    print("---------------------------------------------------------------------------------------------------\n")
+    for V in Nouvelles_voitures:
+        print(V)
+    # Fin de la création de la nouvelle liste
