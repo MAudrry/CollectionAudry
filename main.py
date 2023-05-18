@@ -81,3 +81,48 @@ if __name__ == '__main__':
     print("la liste voitures n'existe plus!!!!!!!!!\n\n")
  
     # FIN Q1.11
+
+    # Q2 Créer une tuple de 10 éléments entiers
+    Nombres = (1,3,6,3,4,3,4,8,5,3)
+    # FIN Q2
+
+    # Q2.1 Afficher le nombre de fois 3 apparait dans la tuple
+    print("\nQ2.1 Afficher le nombre de fois 3 apparait dans la tuple")
+    print("---------------------------------------------------\n")
+    occurence = Nombres.count(3)
+    print("Le nombre 3 apparait:",occurence,"fois")
+    # FIN Q2.1
+
+    # Q2.2 Afficher le contenu de l'element numero 5
+    print("\nQ2.2 Afficher le contenu de l'element numero 5")
+    print("---------------------------------------------------\n")
+    contenu = Nombres[5]
+    print("L'element 5 est:",contenu)
+    # FIN Q2.2
+
+    # Q2.3 Ordonner la tuple
+    print("\nQ2.3 Ordonner la tuple")
+    print("-----------------------------\n")
+    NombresOrdonnes = sorted(Nombres)
+    print("Tuple ordonnee:",NombresOrdonnes)
+    # FIN Q2.3
+
+    # Q2.4 Ajouter un element a la fin de la tuple
+    print("\nQ2.4 Ajouter un element a la fin de la tuple")
+    print("-----------------------------\n")
+    Nombres = Nombres+(55,)
+    print("t:",Nombres)
+    # FIN Q2.4
+
+    # Q2.5 Ajouter un element a l'index numero 3
+    print("\nQ2.5 Ajouter un element a l'index numero 3")
+    print("-----------------------------\n")
+    Nombres = Nombres[:3]+(10,3,4, 3, 4, 8, 5, 3, 55)
+    print("t:",Nombres)
+    # FIN Q2.5
+
+    # Q2.6 Afficher la nouvelle tuple
+    print("\nQ2.6 Afficher la nouvelle tuple")
+    print("-----------------------------\n")
+    print("Nouvelle tuple:",Nombres)
+    # FIN Q2.6
