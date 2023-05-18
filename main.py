@@ -11,3 +11,7 @@ if __name__ == '__main__':
         print(voiture)
 
     # Fin de l'affichage des éléments de la liste
+
+    # Q1.2 Changer le contenu de l'élément numéro 5
+    voitures[5]= "Citroen"
+    # Q1.2 Fin du Changement de l'élément 5
