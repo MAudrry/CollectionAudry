@@ -126,3 +126,27 @@ if __name__ == '__main__':
     print("-----------------------------\n")
     print("Nouvelle tuple:",Nombres)
     # FIN Q2.6
+
+    # Q3 Création d'un set de 10 éléments
+    sports = {"Football", "Basketball","Baseball","Criquet","Tenis", "Rugby","Natation","Football américain","Boxe"}
+    # FIN Q3
+
+    # Q3.1 Afficher le set créé
+    print("\nQ2.6 Afficher le set cree")
+    print("-----------------------------\n")
+    for s in sports:
+        print(s)   
+    
+    # FIN Q3.1
+
+    # Q3.2 Ajout d'un element
+    sports.add("Nutition")    
+    # FIN Q3.2
+
+    # Q3.3 Suppresssion d'un element
+    sports.remove("Info-G.L")
+    # FIN Q3.3
+
+    # Q3.3 Suppresssion du set
+    del sports
+    # FIN Q3.3
