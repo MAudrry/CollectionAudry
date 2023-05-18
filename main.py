@@ -140,11 +140,11 @@ if __name__ == '__main__':
     # FIN Q3.1
 
     # Q3.2 Ajout d'un element
-    sports.add("Nutition")    
+    sports.add("MMA")    
     # FIN Q3.2
 
     # Q3.3 Suppresssion d'un element
-    sports.remove("Info-G.L")
+    sports.remove("Tenis de table")
     # FIN Q3.3
 
     # Q3.3 Suppresssion du set
