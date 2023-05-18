@@ -25,3 +25,59 @@ if __name__ == '__main__':
     for V in Nouvelles_voitures:
         print(V)
     # Fin de la création de la nouvelle liste
+
+    #Q1.4 Ajouter un element a la fin de la liste
+    voitures.append("Stechene")
+
+    # Fin de l'ajout de l'élément
+
+
+    #Q1.5 Ajouter un élément à l'index numéro 2 à la liste
+    voitures.insert(2,"Spacio")
+
+    # Fin de l'ajout de l'élément à l'index 2
+
+    # Q1.6 supprimer l'element a l'index numero 3 de la liste
+    del voitures[3]
+    # FIN Q1.6  
+
+    # Q1.7 supprimer l'element a l'index numero 2 de la liste
+    del voitures[2]
+    # FIN Q1.7   
+       
+    # Q1.8 Ordonner la liste
+    print("\nQ1.8 Ordonner la liste")
+    print("---------------------------------------------------------\n")
+    voitures.sort()
+    print("Affichage de la liste ordonnee:\n")
+    for voiture in voitures:
+        print(voiture)
+ 
+    # FIN Q1.8   
+
+     # Q1.9 Afficher  la liste au sens inverse
+    print("\nQ1.9 Afficher  la liste au sens inverse")
+    print("--------------------------------------------\n")
+    voitures.reverse()
+    print("Affichage de la liste au sens inverse:\n")
+    for voiture in voitures:
+        print(voiture)
+ 
+    # FIN Q1.9  
+    
+     # Q1.10 Vider  la liste
+    print("\nQ1.10 Vidage et Affichage de  la liste vide")
+    print("--------------------------------------------\n")
+    voitures.clear()
+    print("voitures:",voitures)
+ 
+    # FIN Q1.10 
+        
+       
+     # Q1.11 Supprimer  la liste
+    print("\nQ1.11 suppression de  la liste")
+    print("--------------------------------------------\n")
+    del voitures
+    print("la liste voitures n'existe plus!!!!!!!!!\n\n")
+ 
+    # FIN Q1.11
