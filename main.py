@@ -128,7 +128,7 @@ if __name__ == '__main__':
     # FIN Q2.6
 
     # Q3 Création d'un set de 10 éléments
-    sports = {"Football", "Basketball","Baseball","Criquet","Tenis", "Rugby","Natation","Football américain","Boxe"}
+    sports = {"Football", "Basketball","Baseball","Criquet","Tenis", "Rugby","Natation","Football americain","Boxe"}
     # FIN Q3
 
     # Q3.1 Afficher le set créé
@@ -144,7 +144,7 @@ if __name__ == '__main__':
     # FIN Q3.2
 
     # Q3.3 Suppresssion d'un element
-    sports.remove("Tenis de table")
+    sports.remove("Tenis")
     # FIN Q3.3
 
     # Q3.3 Suppresssion du set
